@@ -22,4 +22,4 @@
   * 1 = y(0) = 1/C -> C = 1
   * Solution to IVP is y(x) = 1/x<sup>2</sup> + 1, with interval of existence (-inf, inf)
 * Example: Solve the IVP y' + 2xy<sup>2</sup> = 0, y(0) = -1
-  * Plug in: -1 = y(0) = 1/C -> C = -1, solution to IVP is y(x) = 1/x<sup>2</sup>-1
+  * Plug in: -1 = y(0) = 1/C -> C = -1, solution to IVP is y(x) = 1/(x<sup>2</sup>-1)
