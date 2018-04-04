@@ -30,5 +30,8 @@
 * Suppose we are given y' = f(x,y) on ODE, call the solution y(x). y' is the slope of the tangent line to the solution curve: y(x)
   * Reverse the argument: y' = f(x,y) is the slope of the solution curve
 * Example: y' = xy. Draw line segments whose slopes are given by f(x,y)
-  * [Resulting direction field](images/april4.PNG)
+  * [Resulting direction field](images/april4-1.PNG)
   * The solution curves are tangent to these line segments, so "connecting the line sigments" gives a qualitative idea of the solution curves
+### Euler's Method
+* Use the direction field to ketch the graph of a particular solution IVP
+* Let y' = yx + x<sup>2</sup> + y<sup>2</sup>, y(0) = 1. Start with (0,1), compute f(0,1) = 1. The tangent line to the particular solution is (y-1) = 1(x-0), y = x+1. Pick a small grid x-length (say 1)
