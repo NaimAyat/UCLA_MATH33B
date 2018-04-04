@@ -13,3 +13,7 @@
   * The general solution is y(x) = Cx - xcosx for any constant C
   * What is the interval of existence of y(x) = 3x - xcosx? 
     * Answer: (-inf, inf). This is the same for any value of C.
+* Example: Consider y' + 2xy<sup>2</sup> = 0, y' = -2xy<sup>2</sup>
+  * Show that y(x) = 1/(x<sup>2</sup> + C) is a general solution
+    * Find the derivative of the general solution, plug into differential equation
+    * y'(x) = -2x / (x<sup>2</sup> + C)<sup>2</sup> so y' + 2xy<sup>2</sup> = -2x / (x<sup>2</sup> + C)<sup>2</sup> + 2x / (x<sup>2</sup> + C)<sup>2</sup> = 0. Hence, general solution is correct
