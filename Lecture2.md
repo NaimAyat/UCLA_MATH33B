@@ -35,3 +35,4 @@
 ### Euler's Method
 * Use the direction field to ketch the graph of a particular solution IVP
 * Let y' = yx + x<sup>2</sup> + y<sup>2</sup>, y(0) = 1. Start with (0,1), compute f(0,1) = 1. The tangent line to the particular solution is (y-1) = 1(x-0), y = x+1. Pick a small grid x-length (say 1)
+  * Increase the x-coordinate by grid length, we get x = 0 + 1 = 1. Follow the tangent line until that point y = x + 1 = 2. Repeat. Compute f(1,2) = 2 + 1 + 4 = 7. Tangent line (y-2) = 7(x-1)
