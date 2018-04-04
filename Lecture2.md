@@ -24,5 +24,5 @@
 * Example: Solve the IVP y' + 2xy<sup>2</sup> = 0, y(0) = -1
   * Plug in: -1 = y(0) = 1/C -> C = -1, solution to IVP is y(x) = 1/(x<sup>2</sup>-1)
   * Which of (-inf, -1), (-1, 1), (1, inf) is the interval of existence?
-    * We are forced to pick (-1, 1), since our curve has to go through 0; the interval of existence must include 0
+    * We are forced to pick (-1, 1), since our curve has to go through 0
 * The interval of existence of the solution to an IVP must contain the x-coordinate of the initial condition
