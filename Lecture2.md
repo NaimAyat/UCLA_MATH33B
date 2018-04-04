@@ -26,7 +26,9 @@
   * Which of (-inf, -1), (-1, 1), (1, inf) is the interval of existence?
     * We are forced to pick (-1, 1), since our curve has to go through 0
 * The interval of existence of the solution to an IVP must contain the x-coordinate of the initial condition
+## Direction Fields
 * Suppose we are given y' = f(x,y) on ODE, call the solution y(x). y' is the slope of the tangent line to the solution curve: y(x)
   * Reverse the argument: y' = f(x,y) is the slope of the solution curve
 * Example: y' = xy. Draw line segments whose slopes are given by f(x,y)
+  * [Resulting direction field](images/april4.PNG)
   * The solution curves are tangent to these line segments, so "connecting the line sigments" gives a qualitative idea of the solution curves
