@@ -32,3 +32,8 @@
        * (y-2)/(y+2) = ±e<sup>C</sup> + e<sup>4x</sup>, let D = ±e<sup>C</sup> 
        * Solve for y to get y(x) = 2[(1+De<sup>4x</sup>)/(1-De<sup>4x</sup>)]
        * Note: plugging in D = 0 yields the constant solution y(x) = 2. Indeed, for the constant function y(x) = 2, y' = 0, but also y<sup>2</sup> - 4 = 0. Beware: dividing by h(y) in step 2 meakes you lose all the solutions for which h(y) = 0. Also, y(x) = -2 is another constant solution. 
+ * Example: ((e<sup>2y</sup>-y) / e<sup>y</sup>)y'=2sinx, y' = dy/dx. 
+   * Combine steps 1 and 2 to get ((e<sup>2y</sup>-y) / e<sup>y</sup>)dy = (2sinx)dx
+   * ∫(2sinx)dx = -2cosx+C<sub>2</sub>
+   * ∫((e<sup>2y</sup>-y) / e<sup>y</sup>)dy = e<sup>y</sup>+ye<sup>-y</sup>+e<sup>-y</sup>+C<sub>1</sub> (integration by parts)
+   * Solving for y is not possible; implicit solution e<sup>y</sup>+ye<sup>-y</sup>+e<sup>-y</sup> = C-2cosx is all we can do; y(x) cannot be written
