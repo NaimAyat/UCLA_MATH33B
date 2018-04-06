@@ -18,3 +18,12 @@
   2. Think y' = dy/dx = g(x)h(y). Isolate x and y on opposite sides dy/h(y) = dx g(x)
   3. Integrate to get ∫ dy/h(y) = ∫ dx g(x)
   4. H(y) + C<sub>1</sub> = G(x) + C<sub>2</sub>, solve for y
+* Example: y' = y + sinx
+  * Want y + sin(x) = g(x)h(y). This is not possible; thus equation is not separable
+ * Example: y' = y<sup>2</sup> - 4 = (y-2)(y+2)
+   1. Let g(x) = 1, h(y) = (y-2)(y+2)
+   2. dy/dx = (y-2)(y+2) isolate x and y on opposite sides: dy/[(y-2)(y+2)] = dx
+   3. ∫ dy/[(y-2)(y+2)] = ∫ dx = x + C<sub>2</sub>
+      * By partial fractions: ∫ dy/[(y-2)(y+2)] = (1/4)ln|y+2| + C<sub>1</sub> = (1/4)ln|(y-2)/(y+2)| + C<sub>1</sub>
+   4. Solve (1/4)ln|(y-2)/(y+2)| + C<sub>1</sub> = x + C<sub>2</sub> for y
+ 
