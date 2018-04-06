@@ -4,7 +4,7 @@
 * Example: y' = yxe<sup>3x</sup>. y = y(x) is the unknown function. 
   * We can isolate y and x on opposite sides of the equation
   * We think of y' = dy/dx
-  * dy/dx = yxe<sup>3x</sup> -> dy/y = xe<sup>3x</sup> dx
+  * dy/dx = yxe<sup>3x</sup> → dy/y = xe<sup>3x</sup> dx
   * Now integrate ∫ dy/y = ∫ xe<sup>3x</sup>dx
   * ∫ dy/y = ln|y| + C<sub>1</sub>
   * ∫ xe<sup>3x</sup>dx = (xe<sup>3x</sup>/3) - (xe<sup>3x</sup>/9) + C<sub>2</sub>
@@ -16,3 +16,4 @@
   1. Separate x and y in the normal form: that is, find g(x), h(y) such that y' = g(x)h(y)
   2. Think y' = dy/dx = g(x)h(y). Isolate x and y on opposite sides dy/h(y) = dx g(x)
   3. Integrate to get ∫ dy/h(y) = ∫ dx g(x)
+  4. H(y) + C<sub>1</sub> = G(x) + C<sub>2</sub>, solve for y
