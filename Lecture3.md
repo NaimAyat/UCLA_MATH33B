@@ -14,3 +14,5 @@
 * Definition: A *first order ODE* is called *separable* if its normal form can be written as y' = g(x)h(y) , y' = f(x,y). That is, the right side of the normal form is a product of two functions; one only in x, the other only in y. We separate x and y.
 * General strategy to solve a separable equation: 
   1. Separate x and y in the normal form: that is, find g(x), h(y) such that y' = g(x)h(y)
+  2. Think y' = dy/dx = g(x)h(y). Isolate x and y on opposite sides dy/h(y) = dx g(x)
+  3. Integrate to get ∫ dy/h(y) = ∫ dx g(x)
