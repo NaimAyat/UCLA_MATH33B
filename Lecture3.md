@@ -1,5 +1,6 @@
 # Lecture 3: April 6, 2018
 ## Section 2.2
+### Separable Equations
 * Goal: Solve a special type of ODE
 * Example: y' = yxe<sup>3x</sup>. y = y(x) is the unknown function. 
   * We can isolate y and x on opposite sides of the equation
