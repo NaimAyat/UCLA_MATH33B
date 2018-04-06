@@ -16,8 +16,9 @@
 * General strategy to solve a separable equation: 
   1. Separate x and y in the normal form: that is, find g(x), h(y) such that y' = g(x)h(y)
   2. Think y' = dy/dx = g(x)h(y). Isolate x and y on opposite sides dy/h(y) = dx g(x)
-  3. Integrate to get ∫ dy/h(y) = ∫ dx g(x)
-  4. H(y) + C<sub>1</sub> = G(x) + C<sub>2</sub>, solve for y
+  3. Consider the case of h(y) = 0
+  4. Integrate to get ∫ dy/h(y) = ∫ dx g(x)
+  5. H(y) + C<sub>1</sub> = G(x) + C<sub>2</sub>, solve for y
 * Example: y' = y + sinx
   * Want y + sin(x) = g(x)h(y). This is not possible; thus equation is not separable
  * Example: y' = y<sup>2</sup> - 4 = (y-2)(y+2)
@@ -26,4 +27,8 @@
    3. ∫ dy/[(y-2)(y+2)] = ∫ dx = x + C<sub>2</sub>
       * By partial fractions: ∫ dy/[(y-2)(y+2)] = (1/4)ln|y+2| + C<sub>1</sub> = (1/4)ln|(y-2)/(y+2)| + C<sub>1</sub>
    4. Solve (1/4)ln|(y-2)/(y+2)| + C<sub>1</sub> = x + C<sub>2</sub> for y
- 
+      * (1/4)ln|(y-2)/(y+2)| = C(x+C<sub>2</sub>-C<sub>1</sub>) where C = 4(C<sub>2</sub>-C<sub>1</sub>)
+       * |(y-2)/(y+2)| = e<sup>4x+C</sup>
+       * (y-2)/(y+2) = ±e<sup>C</sup> + e<sup>4x</sup>, let D = ±e<sup>C</sup> 
+       * Solve for y to get y(x) = 2[(1+De<sup>4x</sup>)/(1-De<sup>4x</sup>)]
+       * Note: plugging in D = 0 yields the constant solution y(x) = 2. Indeed, for the constant function y(x) = 2, y' = 0, but also y<sup>2</sup> - 4 = 0. Beware: dividing by h(y) in step 2 meakes you lose all the solutions for which h(y) = 0. Also, y(x) = -2 is another constant solution. 
