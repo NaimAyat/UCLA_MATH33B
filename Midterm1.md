@@ -7,9 +7,9 @@
 3. Find derivative of exp1, verify it is the same as the expression resulting from step 2
 4. Verify initial value satisfies y(t), if applicable
 5. Interval of existence is longest defined interval containing the given t value
-## Section 2.2: Seperable Functions
-* F(x,y) is seperable if it can be expressed as a product of x's and y's
-### [Solving Seperable Differential Equations](https://www.youtube.com/watch?v=nNHlSB6b1HU)
+## Section 2.2: Separable Functions
+* F(x,y) is separable if it can be expressed as a product of x's and y's
+### [Solving Separable Differential Equations](https://www.youtube.com/watch?v=nNHlSB6b1HU)
 1. Remember: y' means dy/dx. Get rid of the denominator by multiplying both sides by dx.
 2. Get x's on one side, y's on the other
 3. Integrate y side w.r.t. dy
@@ -21,7 +21,7 @@
 1. Get the rhs in terms of (y/x)
 2. Substitute v for y/x in the rhs
 3. Use the equation dy/dx = x(dv/dx)+v.
-   * Set LHS to x(dv/dx)+v, perform seperation of variables and solve
+   * Set LHS to x(dv/dx)+v, perform separation of variables and solve
 ### [Solving Arbitrary Linear Equations with the Integrating Factor](https://www.youtube.com/watch?v=eWLgWazTc-0)
 1. Given equation in the form x' = ax = f
 2. Rewrite as x' - ax = f
