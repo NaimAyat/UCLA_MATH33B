@@ -25,7 +25,16 @@
 ### [Solving Arbitrary Linear Equations with the Integrating Factor](https://www.youtube.com/watch?v=eWLgWazTc-0)
 1. Given equation in the form x' = ax = f
 2. Rewrite as x' - ax = f
-3. Calculate integrating factor u(x) = e<sup>-∫a(t)dt</sup> (don't need the + C)
+3. Calculate integrating factor u(x) = e<sup>-∫a(t)dt</sup> (disregard the + C)
 4. Multiply both sides of the original equation by the integrating factor
 5. Integrate this to obtain u(x)x(t) = ∫u(t)f(t)dt + C
 6. Solve for x(t)
+### [Solving Arbitrary Linear Equations with Variation of Parameters](https://www.youtube.com/watch?v=YNrJ9LA3Kxk)
+1. Rewrite as homogenous (equals zero)
+   * For example, rewrite y' + 2xy = 2x as y'<sub>h</sub> + 2xy<sub>h</sub> = 0
+2. Separate homogenous equation
+3. Integrate both sides, solve for y<sub>h</sub> (disregard the + C)
+4. Set y = u * y<sub>h</sub>
+5. Take derivative, y'. Plug your y' and the y found in step 4 into the original function
+6. Separate into u and x sides, integrate each side, solve for u
+7. Plug solved u into equation from step 4 to get y
