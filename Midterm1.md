@@ -25,7 +25,7 @@
 ### [Solving Arbitrary Linear Equations with the Integrating Factor](https://www.youtube.com/watch?v=eWLgWazTc-0)
 1. Given equation in the form x' = ax = f
 2. Rewrite as x' - ax = f
-3. Calculate integrating factor u(x) = e<sup>-∫a(t)dt<sup> (don't need the + C)
+3. Calculate integrating factor u(x) = e<sup>-∫a(t)dt</sup> (don't need the + C)
 4. Multiply both sides of the original equation by the integrating factor
 5. Integrate this to obtain u(x)x(t) = ∫u(t)f(t)dt + C
 6. Solve for x(t)
