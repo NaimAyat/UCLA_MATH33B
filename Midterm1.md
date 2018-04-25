@@ -38,3 +38,5 @@
 5. Take derivative, y'. Plug your y' and the y found in step 4 into the original function
 6. Separate into u and x sides, integrate each side, solve for u
 7. Plug solved u into equation from step 4 to get y
+## Section 2.5: Mixing Problems
+### [Solving Using First-Order Separable Differential Equations](https://www.youtube.com/watch?v=6wk9zWa-Fww)
