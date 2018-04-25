@@ -40,3 +40,7 @@
 7. Plug solved u into equation from step 4 to get y
 ## Section 2.5: Mixing Problems
 ### [Solving Using First-Order Separable Differential Equations](https://www.youtube.com/watch?v=6wk9zWa-Fww)
+* Want, for example, amount of salt in tank ofter t minutes
+* Set A(t) = amount of salt after t minutes
+* Set dA/dt = (rate in) - (rate out)
+  * More generally, dA/dt = (concentration that enters container)(rate of flow) - (concentration out)(rate of flow out)
