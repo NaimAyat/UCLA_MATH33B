@@ -50,3 +50,7 @@
 * Integrate both sides and solve for A as a function of t
 * Plug in initial value, for example A(t) = 15 "the amount of salt at time 0 was 15" to find C
 * Write the newly discovered function for A(t)
+## Section 2.6: Exact Differential Equations
+* Exact differential equation: we have a function of (x,y) and a function of (x,y) times y' equal to zero
+  * M(x,y) + N(x,y)y' = 0
+  * If we take the derivative of M with respect to y and N with respect to x, they are equal: M<sub>y</sub>(x,y) = N<sub>x</sub>(x,y)
