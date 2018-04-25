@@ -54,3 +54,5 @@
 * Exact differential equation: we have a function of (x,y) and a function of (x,y) times y' equal to zero
   * M(x,y) + N(x,y)y' = 0
   * If we take the derivative of M with respect to y and N with respect to x, they are equal: M<sub>y</sub>(x,y) = N<sub>x</sub>(x,y)
+  * Therefore, there exists a function whose derivative with respect to x is the M part: f<sub>x</sub>(x,y) = M(x,y) and a function whose derivative with respect to y is the N part: f<sub>y</sub>(x,y) = N(x,y)
+  * Note: M, N, M<sub>y</sub>, M<sub>x</sub> must be continuous on a connected region
