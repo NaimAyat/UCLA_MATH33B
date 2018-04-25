@@ -45,3 +45,8 @@
 * Set dA/dt = (rate in) - (rate out)
   * More generally, dA/dt = (concentration that enters container)(rate of flow) - (concentration out)(rate of flow out)
     * Concentration out = A(t)/ volume of container
+* Simplify for dA/dt = expression with A
+* Separate; get A on one side and dt on the other
+* Integrate both sides and solve for A as a function of t
+* Plug in initial value, for example A(t) = 15 "the amount of salt at time 0 was 15" to find C
+* Write the newly discovered function for A(t)
