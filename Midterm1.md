@@ -70,4 +70,12 @@
 * Given the ODE dy/dx = f(x,y) and initial value y(a) = b
   * Solution exists if f is continuous "near" (a,b), then a solution exists
   * If also δf/δy (derivative with respect to y of f(x,y)) is continuous near (a,b), then the solution is unique
-## Section 2.9: 
+## Section 2.9: Autonomous Equations and Stability
+* Autonomous - no independent variable in definition: dx/dt = f(x), slope doesn't change left to right
+### Analyze Solutions of Autonomous Equation
+1. Isolate x' on LHS
+2. Find points for x at which x' = 0
+3. Graph x'
+4. For intervals where x' is negative, draw an arrow pointing left. Where x' is positive, draw an arrow pointing right
+5. Zeros that have arrows pointing at them from both sides are stable solutions
+6. Sketch solutions. Put x on vertical axis and t on horizontal axis. Put zeros of x on vertical axis and draw horizontal lines through them. Plot t to be decreasing in regions of x where an arrow was drawn to the left, and increasing in regions of x where an arrow was drawn to the right
