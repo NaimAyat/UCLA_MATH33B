@@ -66,3 +66,8 @@
 7. Take derivative of f(x,y) from part 6 to yield f<sub>y</sub>(x,y). Set f<sub>y</sub>(x,y) = N(x,y) to find h'(y)
 8. Integrate h'(y) with respect to y to get h(y), write out f(x,y) with this new discovery
 9. Set f(x,y) = C
+## Section 2.7: Existence and Uniqueness of Solutions
+* Given the ODE dy/dx = f(x,y) and initial value y(a) = b
+  * Solution exists if f is continuous "near" (a,b), then a solution exists
+  * If also δf/δy (derivative with respect to y of f(x,y)) is continuous near (a,b), then the solution is unique
+## Section 2.9: 
