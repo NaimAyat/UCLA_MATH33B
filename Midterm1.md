@@ -72,9 +72,10 @@
   * If also δf/δy (derivative with respect to y of f(x,y)) is continuous near (a,b), then the solution is unique
 ## Section 2.9: Autonomous Equations and Stability
 * Autonomous - no independent variable in definition: dx/dt = f(x), slope doesn't change left to right
-### [Analyze Solutions of Autonomous Equation](https://www.youtube.com/watch?v=mtf9rZr2Scs)
+### [Stability of Solutions](https://www.youtube.com/watch?v=mtf9rZr2Scs)
 1. Isolate x' on LHS
-2. Find points for x at which x' = 0
+2. Find points for x at which x' = 0 (equilibrium solutions)
+   * [Equilibrium solutions are stable when the slope field points at their horizontal line from both directions, unstable otherwise](https://www.youtube.com/watch?v=3qAQ-FW9acA)
 3. Graph x'
 4. For intervals where x' is negative, draw an arrow pointing left. Where x' is positive, draw an arrow pointing right
 5. Zeros that have arrows pointing at them from both sides are stable solutions
