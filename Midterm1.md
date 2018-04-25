@@ -55,4 +55,14 @@
   * M(x,y) + N(x,y)y' = 0
   * If we take the derivative of M with respect to y and N with respect to x, they are equal: M<sub>y</sub>(x,y) = N<sub>x</sub>(x,y)
   * Therefore, there exists a function whose derivative with respect to x is the M part: f<sub>x</sub>(x,y) = M(x,y) and a function whose derivative with respect to y is the N part: f<sub>y</sub>(x,y) = N(x,y)
-  * Note: M, N, M<sub>y</sub>, M<sub>x</sub> must be continuous on a connected region
+  * Note: M, N, M<sub>y</sub>, N<sub>x</sub> must be continuous on a connected region
+### [Solving Exact Differential Equations](https://www.youtube.com/watch?v=bwASJWS8ltM)
+1. Get function in terms of M(x,y) + N(x,y)y' = 0
+2. Take derivative with respect to y of M to get M<sub>y</sub>
+3. Take derivative with respect to x of N to get N<sub>x</sub>
+4. Check if M<sub>y</sub> = N<sub>x</sub>. If so, then the equation is exact
+5. Set f<sub>x</sub>(x,y) = M(x,y) and f<sub>y</sub>(x,y) = N(x,y)
+6. Integrate f<sub>x</sub>(x,y) w.r.t. x to yield f(x,y). Remember to add constant function h'(y) to result
+7. Take derivative of f(x,y) from part 6 to yield f<sub>y</sub>(x,y). Set f<sub>y</sub>(x,y) = N(x,y) to find h'(y)
+8. Integrate h'(y) with respect to y to get h(y), write out f(x,y) with this new discovery
+9. Set f(x,y) = C
