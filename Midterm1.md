@@ -18,7 +18,7 @@
 ## Section 2.4: Linear Equations
 * Linear equation: the unknown function x and its derivative x' both appear alone and only to first order
 ### [Solving Homogeneous Linear Equations](https://www.youtube.com/watch?v=5mFjvDvTiTg)
-1. Get the rhs in terms of (y/x)
+1. Need equation in the form dy/dx = some function of (y/x)
 2. Substitute v for y/x in the rhs
 3. Use the equation dy/dx = x(dv/dx)+v.
    * Set LHS to x(dv/dx)+v, perform separation of variables and solve
