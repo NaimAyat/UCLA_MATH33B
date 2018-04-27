@@ -28,16 +28,7 @@
 4. Multiply both sides of the original equation by the integrating factor
 5. Integrate this to obtain uy = ∫ufdx + C
 6. Solve for y
-### [Solving Arbitrary Linear Equations with Variation of Parameters](https://www.youtube.com/watch?v=YNrJ9LA3Kxk)
-1. Rewrite as homogenous (equals zero)
-   * For example, rewrite y' + 2xy = 2x as y'<sub>h</sub> + 2xy<sub>h</sub> = 0
-2. Separate homogenous equation
-3. Integrate both sides, solve for y<sub>h</sub> (disregard the + C)
-4. Set y = u * y<sub>h</sub>
-5. Take derivative, y'. Plug your y' and the y found in step 4 into the original function
-6. Separate into u and x sides, integrate each side, solve for u
-7. Plug solved u into equation from step 4 to get y
-### [Variation of Parameters Alternate Example](https://www.youtube.com/watch?v=Gq3PXhB78ws)
+### [Variation of Parameters](https://www.youtube.com/watch?v=Gq3PXhB78ws)
 1. Like with integrating factor, get equation in the form y' + ay = f(x)
 2. Let v = e<sup>-∫adx</sup> (disregard the + C)
 3. Now get u = ∫(f/v)dx
