@@ -37,7 +37,7 @@
 5. Take derivative, y'. Plug your y' and the y found in step 4 into the original function
 6. Separate into u and x sides, integrate each side, solve for u
 7. Plug solved u into equation from step 4 to get y
-### [Variation of Parameters Alternate Example]
+### [Variation of Parameters Alternate Example](https://www.youtube.com/watch?v=Gq3PXhB78ws)
 1. Like with integrating factor, get equation in the form y' + ay = f(x)
 2. Let v = e<sup>-∫adx</sup> (disregard the + C)
 3. Now get u = ∫(f/v)dx
