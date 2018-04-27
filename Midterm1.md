@@ -37,6 +37,11 @@
 5. Take derivative, y'. Plug your y' and the y found in step 4 into the original function
 6. Separate into u and x sides, integrate each side, solve for u
 7. Plug solved u into equation from step 4 to get y
+### [Variation of Parameters Alternate Example]
+1. Like with integrating factor, get equation in the form y' + ay = f(x)
+2. Let v = e<sup>-∫adx</sup> (disregard the + C)
+3. Now get u = ∫(f/v)dx
+4. y = vu
 ## Section 2.5: Mixing Problems
 ### [Solving Using First-Order Separable Differential Equations](https://www.youtube.com/watch?v=6wk9zWa-Fww)
 * Want, for example, amount of salt in tank ofter t minutes
