@@ -23,12 +23,11 @@
 3. Use the equation dy/dx = x(dv/dx)+v.
    * Set LHS to x(dv/dx)+v, perform separation of variables and solve
 ### [Solving Arbitrary Linear Equations with the Integrating Factor](https://www.youtube.com/watch?v=eWLgWazTc-0)
-1. Given equation in the form x' = ax = f
-2. Rewrite as x' - ax = f
-3. Calculate integrating factor u(x) = e<sup>-∫a(t)dt</sup> (disregard the + C)
+1. Get equation in the form y' + ay = f(x)
+3. Calculate integrating factor u(x) = e<sup>-∫adx</sup> (disregard the + C)
 4. Multiply both sides of the original equation by the integrating factor
-5. Integrate this to obtain u(x)x(t) = ∫u(t)f(t)dt + C
-6. Solve for x(t)
+5. Integrate this to obtain uy = ∫ufdx + C
+6. Solve for y
 ### [Solving Arbitrary Linear Equations with Variation of Parameters](https://www.youtube.com/watch?v=YNrJ9LA3Kxk)
 1. Rewrite as homogenous (equals zero)
    * For example, rewrite y' + 2xy = 2x as y'<sub>h</sub> + 2xy<sub>h</sub> = 0
