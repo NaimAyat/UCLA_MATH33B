@@ -6,7 +6,7 @@
 W (f_1, f_2) =  |             |
                 |  f_1'  f_2' |
 ```
-* If = nonzero for some value of x on the interval, the functions are linearly independent
+* If W = nonzero for some value of x on the interval, the functions are linearly independent
 ## [Homogenous Second Order Linear Differential Equations](https://www.youtube.com/watch?v=soU-zRdpsoA)
 * Take form P(x)y'' + Q(x)y' + R(x)y = G(x)
 * Focus on: ay'' + by' + cy = 0
