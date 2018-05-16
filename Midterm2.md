@@ -20,3 +20,6 @@ W (f_1, f_2) =  |             |
 ### Characteristic Equation
 * Characteristic equation of y'' + py' + qy = 0 is λ<sup>2</sup> + pλ + q = 0
 * Roots of characteristic equation are given by λ = [-p ± √(p<sup>2</sup>-4q)]/2
+  * Two distinct real roots if p<sup>2</sup>-4q > 0
+  * Two distinct complex roots if p<sup>2</sup>-4q < 0
+  * One repeated real root if p<sup>2</sup>-4q = 0
