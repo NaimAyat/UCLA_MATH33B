@@ -9,13 +9,6 @@ W (f_1, f_2) =  |             |
                 |  f_1'  f_2' |
 ```
 * If W = nonzero for some value of x on the interval, the functions are linearly independent and form a fundamental set of solutions
-## [Homogenous Second Order Linear Differential Equations](https://www.youtube.com/watch?v=soU-zRdpsoA)
-* Take form P(x)y'' + Q(x)y' + R(x)y = G(x)
-* Focus on: ay'' + by' + cy = 0
-* Solve ar<sup>2</sup> + br + c = 0
-  * If roots are distinct (r<sub>1</sub>, r<sub>2</sub>): y = c<sub>1</sub>e<sup>r<sub>1</sub>x</sup> + c<sub>2</sub>e<sup>r<sub>2</sub>x</sup>
-  * If roots are repeated (r): y = c<sub>1</sub>e<sup>rx</sup> + c<sub>2</sub>xe<sup>rx</sup>
-  * If roots are distinct and complex: y = e<sup>αx</sup>(c<sub>1</sub>cos(βx)+c<sub>2</sub>sin(βx))
 ## Section 4.3
 ### Characteristic Equation
 * Characteristic equation of y'' + py' + qy = 0 is λ<sup>2</sup> + pλ + q = 0
@@ -23,3 +16,8 @@ W (f_1, f_2) =  |             |
   * Two distinct real roots if p<sup>2</sup>-4q > 0
   * Two distinct complex roots if p<sup>2</sup>-4q < 0
   * One repeated real root if p<sup>2</sup>-4q = 0
+#### [Using Characteristic Equation to Solve Differential Equation](https://www.youtube.com/watch?v=soU-zRdpsoA)
+* Solve λ<sup>2</sup> + pλ + q = 0
+  * If roots (r) are distinct (r<sub>1</sub>, r<sub>2</sub>): y = c<sub>1</sub>e<sup>r<sub>1</sub>x</sup> + c<sub>2</sub>e<sup>r<sub>2</sub>x</sup>
+  * If roots are repeated (r): y = c<sub>1</sub>e<sup>rx</sup> + c<sub>2</sub>xe<sup>rx</sup>
+  * If roots are distinct and complex: y = e<sup>αx</sup>(c<sub>1</sub>cos(βx)+c<sub>2</sub>sin(βx))
