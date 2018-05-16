@@ -21,3 +21,4 @@ W (f_1, f_2) =  |             |
   * If roots (r) are distinct (r<sub>1</sub>, r<sub>2</sub>): y = c<sub>1</sub>e<sup>r<sub>1</sub>x</sup> + c<sub>2</sub>e<sup>r<sub>2</sub>x</sup>
   * If roots are repeated (r): y = c<sub>1</sub>e<sup>rx</sup> + c<sub>2</sub>xe<sup>rx</sup>
   * If roots are distinct and complex: y = e<sup>αx</sup>(c<sub>1</sub>cos(βx)+c<sub>2</sub>sin(βx))
+    * Where roots have the form λ = α - iβ
