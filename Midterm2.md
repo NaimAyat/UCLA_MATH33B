@@ -17,3 +17,6 @@ W (f_1, f_2) =  |             |
   * If roots are repeated (r): y = c<sub>1</sub>e<sup>rx</sup> + c<sub>2</sub>xe<sup>rx</sup>
   * If roots are distinct and complex: y = e<sup>αx</sup>(c<sub>1</sub>cos(βx)+c<sub>2</sub>sin(βx))
 ## Section 4.3
+### Characteristic Equation
+* Characteristic equation of y'' + py' + qy = 0 is λ<sup>2</sup> + pλ + q = 0
+* Roots of characteristic equation are given by λ = [-p ± √(p<sup>2</sup>-4q)]/2
