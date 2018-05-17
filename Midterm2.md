@@ -41,3 +41,4 @@ W (f_1, f_2) =  |             |
 ### Damped Harmonic Motion
 * c > 0 in x'' + 2cx' + w<sub>0</sub><sup>2</sup>x = 0
   * Characteristic equation is λ<sup>2</sup> + 2cλ + w<sub>0</sub><sup>2</sup> = 0
+  * Roots are λ = -c ± sqrt(c<sup>2</sup> - w<sub>0</sub><sup>2</sup>)
