@@ -61,8 +61,8 @@ W (f_1, f_2) =  |             |
   * f(t) = e<sup>rt</sup>P(t)coswt or e<sup>rt</sup>P(t)sinwt, y<sub>p</sub>(t) = e<sup>rt</sup>[p(t)coswt + q(t)sinwt]
 1. Given y'' + py' + qy = f(t)
 2. Solve complimentary function y'' + p(t)y' + q(t)y = 0 by getting roots of λ<sup>2</sup> + pλ + q = 0
-3. Using the roots, get an equation for y<sub>c</sub> 
+3. Using the roots, get an equation for y<sub>c</sub>(t)
 4. Come up with a particular solution y<sub>p</sub>(t)
    * For example, if f is x<sup>2</sup> choose y<sub>p</sub>(t) = Ax<sup>2</sup> + Bt + C 
 5. Get first and second derivatives of y<sub>p</sub>(t). Plug them into original inhomogenous equation and solve for the undetermined coefficients of y<sub>p</sub>(t)
-6. General solution of the inhomogenous equation: y(x) = y<sub>p</sub>(x) + y<sub>c</sub>(x)
+6. General solution of the inhomogenous equation: y(t) = y<sub>p</sub>(t) + y<sub>c</sub>(t)
