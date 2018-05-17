@@ -68,4 +68,10 @@ W (f_1, f_2) =  |             |
 6. General solution of the inhomogenous equation: y(t) = y<sub>p</sub>(t) + y<sub>c</sub>(t)
 ## Section 4.6
 ### Variation of Parameters
-* Solve y'' + py' + qy = f given a fundamental set of solutions {y<sub>1</sub>, y<sub>2</sub>} of the associated homogenous equation y'' + py' + qy = 0
+* Solve y'' + p(t)y' + q(t)y = g(t) given a fundamental set of solutions {y<sub>1</sub>, y<sub>2</sub>} of the associated homogenous equation y'' + p(t)y' + q(t)y = 0
+1. Find fundamental set of solutions to the associated homogenous equation y'' + py' + qy = 0
+2. Form y<sub>p</sub> = v<sub>1</sub>y<sub>1</sub> + v<sub>2</sub>y<sub>2</sub> where "y"s are the fundamental solutions and "v"s are functions to be determined
+3. Find v<sub>1</sub> and v<sub>2</sub>
+   * Method 1: 
+      * v<sub>1</sub>(t) = ∫ [ (-y<sub>2</sub>gdt) / (y<sub>1</sub>y'<sub>2</sub> - y'<sub>1</sub>y<sub>2</sub>) ] 
+      * v<sub>2</sub>(t) = ∫ [ (y<sub>2</sub>gdt) / (y<sub>1</sub>y'<sub>2</sub> - y'<sub>1</sub>y<sub>2</sub>) ] 
