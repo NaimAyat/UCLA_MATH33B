@@ -46,3 +46,5 @@ W (f_1, f_2) =  |             |
    * General solution: x(t) = e<sup>-ct</sup>[C<sub>1</sub>coswt + C<sub>2</sub>sinwt] where w = sqrt(w<sub>0</sub><sup>2</sup> - c<sup>2</sup>)
 2. c > w<sub>0</sub> is overdamped. Distinct real roots.
    * General solution: x(t) = C<sub>1</sub>e<sup>λ<sub>1</sub>t</sup> + C<sub>2</sub>e<sup>λ<sub>2</sub>t</sup> 
+3. c = w<sub>0</sub> is critically damped. Double root λ = -c.
+   * General solution: x(t) = C<sub>1</sub>e<sup>-ct</sup> + C<sub>2</sub>te<sup>-ct</sup> 
