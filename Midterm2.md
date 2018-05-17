@@ -31,3 +31,4 @@ W (f_1, f_2) =  |             |
 ### Simple Harmonic Motion
 * x'' + w<sub>0</sub><sup>2</sup>x = 0 with characteristic equation λ<sup>2</sup> + w<sub>0</sub><sup>2</sup> = 0
   * Characteristic roots λ = ±iw<sub>0</sub>
+  * General solution x(t) = acosw<sub>0</sub>t + bsinw<sub>0</sub>t where a and b are constants
