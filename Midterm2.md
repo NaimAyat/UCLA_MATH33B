@@ -56,6 +56,6 @@ W (f_1, f_2) =  |             |
   * f(t) = e<sup>rt</sup>, y<sub>p</sub>(t) = ae<sup>rt</sup>
   * f(t) = coswt or sinwt, y<sub>p</sub>(t) = acostwt + bsinwt
   * f(t) = P(t), y<sub>p</sub>(t) = p(t); P is a polynomial and p is a polynomial of the same degree
-  * f(t) = P(t)coswt or P(t)sinwt, y<sub>p</sub>(t) = p(t)coswt + q(t)sinwt; P is a polynomial and p & q are polynomials of the same degree
+  * f(t) = P(t)coswt or P(t)sinwt, y<sub>p</sub>(t) = p(t)coswt + q(t)sinwt; P is a polynomial, p & q are polynomials of same degree
   * f(t) = e<sup>rt</sup>coswt or e<sup>rt</sup>sinwt, y<sub>p</sub>(t) = e<sup>rt</sup>[acoswt + bsinwt]
   * f(t) = e<sup>rt</sup>P(t)coswt or e<sup>rt</sup>P(t)sinwt, y<sub>p</sub>(t) = e<sup>rt</sup>[p(t)coswt + q(t)sinwt]
