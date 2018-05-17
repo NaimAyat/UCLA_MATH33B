@@ -28,3 +28,5 @@ W (f_1, f_2) =  |             |
 * Unforced harmonic motion: x'' + 2cx' + w<sub>0</sub><sup>2</sup>x = 0
   * c = damping constant = μ/2m
   * W = angular frequency = sqrt(k/m)
+### Simple Harmonic Motion
+* x'' + w<sub>0</sub><sup>2</sup>x = 0 with characteristic equation λ<sup>2</sup> + w<sub>0</sub><sup>2</sup> = 0
