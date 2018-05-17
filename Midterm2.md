@@ -32,3 +32,6 @@ W (f_1, f_2) =  |             |
 * x'' + w<sub>0</sub><sup>2</sup>x = 0 with characteristic equation λ<sup>2</sup> + w<sub>0</sub><sup>2</sup> = 0
   * Characteristic roots λ = ±iw<sub>0</sub>
   * General solution x(t) = acosw<sub>0</sub>t + bsinw<sub>0</sub>t where a and b are constants
+### Amplitude and Phase Angle
+* A general solution to x'' + w<sub>0</sub><sup>2</sup>x = 0 can also be written in terms of amplitude and phase angle:
+  * x(t) = Acos(w<sub>0</sub>t - ϕ)
