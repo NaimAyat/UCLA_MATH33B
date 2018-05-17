@@ -49,3 +49,13 @@ W (f_1, f_2) =  |             |
 3. c = w<sub>0</sub> is critically damped. Double root λ = -c.
    * General solution: x(t) = C<sub>1</sub>e<sup>-ct</sup> + C<sub>2</sub>te<sup>-ct</sup> 
 ## Section 4.5
+* Inhomogenous equations have the form y'' + p(t)y' + q(t)y = f(t)
+### Method of Undetermined Coefficients
+* Works only when p(t) and q(t) are constants in y'' + p(t)y' + q(t)y = f(t)
+* f(t) is the forcing term, y<sub>p</sub>(t) is the trial solution
+  * f(t) = e<sup>rt</sup>, y<sub>p</sub>(t) = ae<sup>rt</sup>
+  * f(t) = coswt or sinwt, y<sub>p</sub>(t) = acostwt + bsinwt
+  * f(t) = P(t), y<sub>p</sub>(t) = p(t); P is a polynomial and p is a polynomial of the same degree
+  * f(t) = P(t)coswt or P(t)sinwt, y<sub>p</sub>(t) = p(t)coswt + q(t)sinwt; P is a polynomial and p & q are polynomials of the same degree
+  * f(t) = e<sup>rt</sup>coswt or e<sup>rt</sup>sinwt, y<sub>p</sub>(t) = e<sup>rt</sup>[acoswt + bsinwt]
+  * f(t) = e<sup>rt</sup>P(t)coswt or e<sup>rt</sup>P(t)sinwt, y<sub>p</sub>(t) = e<sup>rt</sup>[p(t)coswt + q(t)sinwt]
