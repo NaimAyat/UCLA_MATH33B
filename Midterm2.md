@@ -30,3 +30,4 @@ W (f_1, f_2) =  |             |
   * W = angular frequency = sqrt(k/m)
 ### Simple Harmonic Motion
 * x'' + w<sub>0</sub><sup>2</sup>x = 0 with characteristic equation λ<sup>2</sup> + w<sub>0</sub><sup>2</sup> = 0
+  * Characteristic roots λ = ±iw<sub>0</sub>
