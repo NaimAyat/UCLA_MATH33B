@@ -66,3 +66,4 @@ W (f_1, f_2) =  |             |
    * For example, if f is x<sup>2</sup> choose y<sub>p</sub>(t) = Ax<sup>2</sup> + Bt + C 
 5. Get first and second derivatives of y<sub>p</sub>(t). Plug them into original inhomogenous equation and solve for the undetermined coefficients of y<sub>p</sub>(t)
 6. General solution of the inhomogenous equation: y(t) = y<sub>p</sub>(t) + y<sub>c</sub>(t)
+## Section 4.6
