@@ -50,7 +50,7 @@ W (f_1, f_2) =  |             |
    * General solution: x(t) = C<sub>1</sub>e<sup>-ct</sup> + C<sub>2</sub>te<sup>-ct</sup> 
 ## Section 4.5
 * Inhomogenous equations have the form y'' + p(t)y' + q(t)y = f(t)
-### Method of Undetermined Coefficients
+### [Method of Undetermined Coefficients](https://www.youtube.com/watch?v=_U8Y5z-kVvI)
 * Works only when p(t) and q(t) are constants in y'' + p(t)y' + q(t)y = f(t)
 * f(t) is the forcing term, y<sub>p</sub>(t) is the trial solution
   * f(t) = e<sup>rt</sup>, y<sub>p</sub>(t) = ae<sup>rt</sup>
