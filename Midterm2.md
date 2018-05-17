@@ -75,3 +75,4 @@ W (f_1, f_2) =  |             |
    * Method 1: 
       * v<sub>1</sub>(t) = ∫ [ (-y<sub>2</sub>gdt) / (y<sub>1</sub>y'<sub>2</sub> - y'<sub>1</sub>y<sub>2</sub>) ] 
       * v<sub>2</sub>(t) = ∫ [ (y<sub>2</sub>gdt) / (y<sub>1</sub>y'<sub>2</sub> - y'<sub>1</sub>y<sub>2</sub>) ] 
+4. Write the particular solution y = v<sub>1</sub>y<sub>1</sub> + v<sub>2</sub>y<sub>2</sub>
