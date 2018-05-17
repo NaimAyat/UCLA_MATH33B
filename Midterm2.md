@@ -36,4 +36,5 @@ W (f_1, f_2) =  |             |
 * A general solution to x'' + w<sub>0</sub><sup>2</sup>x = 0 can also be written in terms of amplitude and phase angle:
   * x(t) = Acos(w<sub>0</sub>t - ϕ)
   * Given vector elements a and b, we can compute A and ϕ: 
-    * ϕ =     arctan(b/a) if a > 0;    arctan(b/a) + π if a < 0 and b > 0;     arctan(b/a) - π if a < 0 and b < 0
+    * A = sqrt(a<sup>2</sup>+b<sup>2</sup>)
+    * ϕ = arctan(b/a) if a > 0; arctan(b/a) + π if a < 0 and b > 0; arctan(b/a) - π if a < 0 and b < 0
