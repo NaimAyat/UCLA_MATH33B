@@ -25,3 +25,4 @@ W (f_1, f_2) =  |             |
 ## Section 4.4
 ### Harmonic Motion
 * Equation for motion of a spring: my'' + μy' + ky = F(t) where m = mass, μ = damping constant, k = spring constant, F(t) = external force
+* Unforced harmonic motion: x'' + 2cx' + w<sup>2</sup><sub>0</sub>x = 0 where c = μ/2m, w = sqrt(k/m)
