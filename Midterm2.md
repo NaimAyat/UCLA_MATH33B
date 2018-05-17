@@ -67,3 +67,5 @@ W (f_1, f_2) =  |             |
 5. Get first and second derivatives of y<sub>p</sub>(t). Plug them into original inhomogenous equation and solve for the undetermined coefficients of y<sub>p</sub>(t)
 6. General solution of the inhomogenous equation: y(t) = y<sub>p</sub>(t) + y<sub>c</sub>(t)
 ## Section 4.6
+### Variation of Parameters
+* Solve y'' + py' + qy = f given a fundamental set of solutions {y<sub>1</sub>, y<sub>2</sub>} of the associated homogenous equation y'' + py' + qy = 0
