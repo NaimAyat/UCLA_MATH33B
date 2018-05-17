@@ -59,3 +59,10 @@ W (f_1, f_2) =  |             |
   * f(t) = P(t)coswt or P(t)sinwt, y<sub>p</sub>(t) = p(t)coswt + q(t)sinwt; P is a polynomial, p & q are polynomials of same degree
   * f(t) = e<sup>rt</sup>coswt or e<sup>rt</sup>sinwt, y<sub>p</sub>(t) = e<sup>rt</sup>[acoswt + bsinwt]
   * f(t) = e<sup>rt</sup>P(t)coswt or e<sup>rt</sup>P(t)sinwt, y<sub>p</sub>(t) = e<sup>rt</sup>[p(t)coswt + q(t)sinwt]
+1. Given y'' + py' + qy = f(t)
+2. Solve complimentary function y'' + p(t)y' + q(t)y = 0 by getting roots of λ<sup>2</sup> + pλ + q = 0
+3. Using the roots, get an equation for y<sub>c</sub> 
+4. Come up with a particular solution y<sub>p</sub>(t)
+   * For example, if f is x<sup>2</sup> choose y<sub>p</sub>(t) = Ax<sup>2</sup> + Bt + C 
+5. Get first and second derivatives of y<sub>p</sub>(t). Plug them into original inhomogenous equation and solve for the undetermined coefficients of y<sub>p</sub>(t)
+6. General solution of the inhomogenous equation: y(x) = y<sub>p</sub>(x) + y<sub>c</sub>(x)
