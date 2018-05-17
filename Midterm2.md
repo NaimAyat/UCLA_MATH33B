@@ -24,7 +24,7 @@ W (f_1, f_2) =  |             |
     * Where roots have the form λ = α - iβ
 ## Section 4.4
 ### Harmonic Motion
-* Equation for motion of a spring: my'' + μy' + ky = F(t) where m = mass, μ = damping constant, k = spring constant, F(t) = external force
+* Equation for motion of a spring: my'' + μy' + ky = F(t) where m = mass, μ = damping constant, k = spring constant = mg/x, F(t) = external force
 * Unforced harmonic motion: x'' + 2cx' + w<sub>0</sub><sup>2</sup>x = 0
   * c = damping constant = μ/2m
   * W = angular frequency = sqrt(k/m)
