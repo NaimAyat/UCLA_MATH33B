@@ -22,3 +22,6 @@ W (f_1, f_2) =  |             |
   * If roots are repeated (r): y = c<sub>1</sub>e<sup>rx</sup> + c<sub>2</sub>xe<sup>rx</sup>
   * If roots are distinct and complex: y = e<sup>αx</sup>(c<sub>1</sub>cos(βx)+c<sub>2</sub>sin(βx))
     * Where roots have the form λ = α - iβ
+## Section 4.4
+### Harmonic Motion
+* Equation for motion of a spring: my'' + μy' + ky = F(t) where m = mass, μ = damping constant, k = spring constant, F(t) = external force
