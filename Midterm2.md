@@ -42,3 +42,5 @@ W (f_1, f_2) =  |             |
 * c > 0 in x'' + 2cx' + w<sub>0</sub><sup>2</sup>x = 0
   * Characteristic equation is λ<sup>2</sup> + 2cλ + w<sub>0</sub><sup>2</sup> = 0
   * Roots are λ = -c ± sqrt(c<sup>2</sup> - w<sub>0</sub><sup>2</sup>)
+1. c < w<sub>0</sub> is underdamped
+  * General solution: x(t) = e<sup>-ct</sup>[C<sub>1</sub>coswt + C<sub>2</sub>sinwt] where w = sqrt(w<sub>0</sub><sup>2</sup> - c<sup>2</sup>)
