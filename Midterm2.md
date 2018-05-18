@@ -75,7 +75,7 @@ W (f_1, f_2) =  |             |
 3. Find v<sub>1</sub> and v<sub>2</sub>
    * Method 1: 
       * v<sub>1</sub>(t) = ∫ [ (-y<sub>2</sub>gdt) / (y<sub>1</sub>y'<sub>2</sub> - y'<sub>1</sub>y<sub>2</sub>) ] 
-      * v<sub>2</sub>(t) = ∫ [ (y<sub>2</sub>gdt) / (y<sub>1</sub>y'<sub>2</sub> - y'<sub>1</sub>y<sub>2</sub>) ] 
+      * v<sub>2</sub>(t) = ∫ [ (y<sub>1</sub>gdt) / (y<sub>1</sub>y'<sub>2</sub> - y'<sub>1</sub>y<sub>2</sub>) ] 
    * Method 2:
       * Solve the system of equations v'<sub>1</sub>y<sub>1</sub> + v'<sub>2</sub>y<sub>2</sub> = 0; v'<sub>1</sub>y'<sub>1</sub> + v'<sub>2</sub>y'<sub>2</sub> = g(t)
       * Integrate to get v<sub>1</sub> and v<sub>2</sub>
