@@ -7,4 +7,4 @@
 * Check if the eigenvectors are independent by combining them into a matrix B and ensuring det(B) = nonzero
 ## Solutions to Differential Equations
 ### Real, Distinct Eigenvalues
-* y(t) = C<sub>1</sub>e<sup>λ<sub>1</sub>t</sup>v<sub>1</sub>
+* y(t) = C<sub>1</sub>e<sup>λ<sub>1</sub>t</sup>v<sub>1</sub> + C<sub>2</sub>e<sup>λ<sub>2</sub>t</sup>v<sub>2</sub> + ... + C<sub>n</sub>e<sup>λ<sub>n</sub>t</sup>v<sub>n</sub>
