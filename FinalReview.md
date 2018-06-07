@@ -5,3 +5,6 @@
 * To find eigenvectors, compute Null(A-λI) for each eigenvalue λ
   * [To compute nullspace](https://www.youtube.com/watch?v=bqBacABVCeQ)
 * Check if the eigenvectors are independent by combining them into a matrix B and ensuring det(B) = nonzero
+## Solutions to Differential Equations
+### Real, Distinct Eigenvalues
+* y(t) = C<sub>1</sub>e<sup>λ<sub>1</sub>t</sup>v<sub>1</sub>
