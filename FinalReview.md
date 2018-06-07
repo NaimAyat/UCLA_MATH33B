@@ -12,3 +12,6 @@
 * Use Euler's Identity e<sup>it</sup> = cost + isint
 * y(t) = c<sub>1</sub>(real part of Euler)+c<sub>2</sub>(imaginary part of Euler)
     * Where roots have the form λ = α ± iβ
+# Section 9.6
+## Exponential of a Matrix
+* e<sup>A</sup> = I + A + A<sup>2</sup>/(2!) + A<sup>3</sup>/(3!) + ...
