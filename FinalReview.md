@@ -10,5 +10,5 @@
 * y(t) = C<sub>1</sub>e<sup>λ<sub>1</sub>t</sup>v<sub>1</sub> + C<sub>2</sub>e<sup>λ<sub>2</sub>t</sup>v<sub>2</sub> + ... + C<sub>n</sub>e<sup>λ<sub>n</sub>t</sup>v<sub>n</sub>
 ### Complex, Distinct Eigenvalues
 * Use Euler's Identity e<sup>it</sup> = cost + isint
-* y(t) = e<sup>αt</sup>(c<sub>1</sub>cos(βt)+c<sub>2</sub>sin(βt))
+* y(t) = c<sub>1</sub>(real part of Euler)+c<sub>2</sub>(imaginary part of Euler)
     * Where roots have the form λ = α ± iβ
