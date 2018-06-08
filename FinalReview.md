@@ -18,4 +18,4 @@
 ## Solving for Repeated Eigenvalues
 1. Find the smallest integer p such that the nullspace of [A - λI]<sup>p</sup> has dimension equal to the multiplicity of λ
 2. Find a basis of the nullspace of [A - λI]<sup>p</sup>
-3. For each basis v, we have the solution y(t) = e<sup>A</sup>v = e<sup>λt</sup>(v + t[A-λI]v + ... + (t<sup>p-1</sup>/(p-1)!)[A-λI]<sup>p-1</sup>v
+3. For each basis v, we have the solution y(t) = e<sup>A</sup>v = e<sup>λt</sup>(v + t[A-λI]v + ... + (t<sup>p-1</sup>/(p-1)!)[A-λI]<sup>p-1</sup>v)
