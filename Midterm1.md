@@ -58,7 +58,7 @@
 4. Check if M<sub>y</sub> = N<sub>x</sub>. If so, then the equation is exact
 5. Set f<sub>x</sub>(x,y) = M(x,y) and f<sub>y</sub>(x,y) = N(x,y)
 6. Integrate f<sub>x</sub>(x,y) w.r.t. x to yield f(x,y). Remember to add constant function h(y) to result
-7. Take derivative of f(x,y) from part 6 to yield f<sub>y</sub>(x,y). Set f<sub>y</sub>(x,y) = N(x,y) to find h'(y)
+7. Take derivative of f(x,y) w.r.t. to y from part 6 to yield f<sub>y</sub>(x,y). Set f<sub>y</sub>(x,y) = N(x,y) to find h'(y)
 8. Integrate h'(y) with respect to y to get h(y), write out f(x,y) with this new discovery
 9. Set f(x,y) = C
 ## [Section 2.7: Existence and Uniqueness of Solutions](https://www.youtube.com/watch?v=GV1gFLZ7V18)
