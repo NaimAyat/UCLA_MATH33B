@@ -1,3 +1,17 @@
+# Section 9.3
+## [Phase Plane Portraits](https://www.youtube.com/watch?v=dpbRUQ-5YWc)
+* Saddle point: two real eigenvalues, one positive and one negative
+* Nodal sink: two real and negative eigenvalues
+* Nodal source: Two real and positive eigenvalues
+* Spiral sink: Two complex conjugate eigenvalues with negative real part
+* Spiral source: Two complex conjugate eigenvalues with positive real part
+# Section 9.4
+## Trace-Determinant Plane
+* Trace of A = a + d = T
+* Determinant of A = ad - bc = D
+  * If T<sup>2</sup> - 4D < 0 we have complex eigenvalues (spiral sink, center, spiral source)
+  * If T<sup>2</sup> - 4D > 0 we have real and distinct eigenvalues (sink, saddle, source)
+  * If If T<sup>2</sup> - 4D = 0 we have repeated eigenvalues (source or sink)
 # Section 9.5
 ## Finding Eigenvalues and Eigenvectors
 * To find eigenvalues of A, compute det(A) and set = 0. Eigenvalues are roots.
