@@ -57,7 +57,7 @@
 3. Take derivative with respect to x of N to get N<sub>x</sub>
 4. Check if M<sub>y</sub> = N<sub>x</sub>. If so, then the equation is exact
 5. Set f<sub>x</sub>(x,y) = M(x,y) and f<sub>y</sub>(x,y) = N(x,y)
-6. Integrate f<sub>x</sub>(x,y) w.r.t. x to yield f(x,y). Remember to add constant function h'(y) to result
+6. Integrate f<sub>x</sub>(x,y) w.r.t. x to yield f(x,y). Remember to add constant function h(y) to result
 7. Take derivative of f(x,y) from part 6 to yield f<sub>y</sub>(x,y). Set f<sub>y</sub>(x,y) = N(x,y) to find h'(y)
 8. Integrate h'(y) with respect to y to get h(y), write out f(x,y) with this new discovery
 9. Set f(x,y) = C
